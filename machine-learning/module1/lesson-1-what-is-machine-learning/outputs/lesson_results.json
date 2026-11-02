@@ -1,0 +1,25 @@
+{
+  "lesson": "3.1.1",
+  "title": "What Is Machine Learning? From Data to Predictions",
+  "data_description": "Synthetic house area and price examples for teaching only.",
+  "random_seed_numpy": 42,
+  "random_seed_torch": 7,
+  "number_of_examples": 40,
+  "model": {
+    "type": "PyTorch nn.Linear(1, 1)",
+    "weight": 2.4308414459228516,
+    "bias": 0.5846256613731384,
+    "learning_rate": 0.05,
+    "epochs": 1000,
+    "initial_mse_loss": 16.822860717773438,
+    "final_mse_loss": 0.011044830083847046
+  },
+  "prediction": {
+    "area_m2": 120.0,
+    "price_usd": 350163.5551452637
+  },
+  "units": {
+    "model_input": "area in hundreds of square metres (area_m2 / 100)",
+    "model_output": "price in hundreds of thousands of USD (price_usd / 100000)"
+  }
+}

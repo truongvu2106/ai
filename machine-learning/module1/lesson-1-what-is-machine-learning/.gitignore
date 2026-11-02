@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+media/
+*.pyc
+lesson_example/outputs/*.csv
+lesson_example/outputs/*.json
+video_generation/outputs/*.mp4
